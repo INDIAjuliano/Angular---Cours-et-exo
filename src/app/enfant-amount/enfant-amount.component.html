@@ -1,0 +1,11 @@
+
+<div class="alert alert-primary">
+    Montant disponible <strong>{{amount}} €</strong>
+</div>
+
+<button (click)="toggleListe()">Afficher/cacher la liste</button>
+<ul *ngIf="afficherListe">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
